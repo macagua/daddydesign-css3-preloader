@@ -5,17 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Pure CSS3 Preloader with Animations</title>
   <style type="text/css" media="screen">
-	.loader{
-	  display: block;
-	  position: fixed;
-	  top: 0;
-	  left: 0;
-	  right: 0;
-	  bottom: 0;
-	  background: #000;
-	  text-indent: -9000px;
-	  z-index: 9;
-	}
+    /*
+    * Items to Note from .loader class:
+    *
+    * - If you want to change the color, adjust the background attribute.
+    * - If you are not fully hiding all elements then you may need to increase
+    *   the z-index attribute to a higher number.
+    */
+    .loader{
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #000;
+      text-indent: -9000px;
+      z-index: 9;
+    }
   </style>
 </head>
 <body>
